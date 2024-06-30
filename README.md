@@ -1,50 +1,33 @@
 # Ya_Ganaste_PT
 Este proyecto está diseñado para realizar la extracción, limpieza y conciliación de datos transaccionales utilizando Python. El proyecto consta de dos paquetes principales: scraping y cleaning, así como dos archivos ejecutables: main y daily_conciliation.
 ## Estructura del Proyecto
+
+Aquí tienes el fragmento de la estructura de carpetas en formato Markdown:
+
+markdown
+Copiar código
 .
 ├── scraping/
-│   ├── __init__.py
-│   └── download.py
+│ ├── init.py
+│ └── download.py
 ├── cleaning/
-│   ├── __init__.py
-│   └── transform.py
+│ ├── init.py
+│ └── transform.py
 ├── main.py
 ├── daily_conciliation.py
 ├── BAT FILE/
-│   ├── task.txt
-│   ├── task.bat
-│   └── task.xml
+│ ├── task.txt
+│ ├── task.bat
+│ └── task.xml
 ├── CHROME/
-│   └── chromedriver.exe
+│ └── chromedriver.exe
 ├── FILES/
 ├── PRESENTACION/
-│   ├── presentacion.pbix
-│   └── presentacion.pdf
+│ ├── presentacion.pbix
+│ └── presentacion.pdf
 └── VIDEO EXTRACCION/
-    ├── video_extraccion_1.mp4
-    └── video_extraccion_2.mp4
-.
-├── scraping/
-│   ├── __init__.py
-│   └── download.py
-├── cleaning/
-│   ├── __init__.py
-│   └── transform.py
-├── main.py
-├── daily_conciliation.py
-├── BAT FILE/
-│   ├── task.txt
-│   ├── task.bat
-│   └── task.xml
-├── CHROME/
-│   └── chromedriver.exe
-├── FILES/
-├── PRESENTACION/
-│   ├── presentacion.pbix
-│   └── presentacion.pdf
-└── VIDEO EXTRACCION/
-    ├── video_extraccion_1.mp4
-    └── video_extraccion_2.mp4
+├── video_extraccion_1.mp4
+└── video_extraccion_2.mp4
 
 
 ## Paquetes
