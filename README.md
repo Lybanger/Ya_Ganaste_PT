@@ -27,7 +27,7 @@ Importaciones utilizadas:
 
 El paquete `cleaning` sirve para preparar los archivos para el análisis y la visualización. Contiene un archivo `transform.py` con una función `files.py`:
 
-1.  **files**: Lee los archivos utilizando pandas y aplica las siguientes configuraciones: `encoding=x`, `skiprows=x`, `index_col=x`, `delimiter=x`, `parse_dates=x`. Estas configuraciones no se aplican a todos los archivos, pero son las más utilizadas.
+1.  **files**: Lee los archivos utilizando `pandas` y aplica las siguientes configuraciones: `encoding=x`, `skiprows=x`, `index_col=x`, `delimiter=x`, `parse_dates=x`. Estas configuraciones no se aplican a todos los archivos, pero son las más utilizadas.
 
 ## Archivos Ejecutables
 
